@@ -47,8 +47,13 @@ Nosso time de desenvolvimento:
 - [Murylo Santos](https://github.com/CSmurylo) - Back End
 - [João Gabriel](https://github.com/joag4443) - Front End
 
+## Landing Page
+
+- https://lukeblackstar.github.io/DuckManager-LandingPage/
+
 ## Contato
 
 Para mais informações, entre em contato com nossa equipe ou abra uma issue no repositório.
 
 [![Ver no GitHub](https://img.shields.io/badge/GitHub-Ver%20Repositório-blue?style=for-the-badge&logo=github)](https://github.com/theheapsters/duck-manager)
+
