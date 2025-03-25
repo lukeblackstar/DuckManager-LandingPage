@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Duck Manager</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#overview">Geral</a></li>
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#contributors">Contribuidores</a></li>
+                <li><a href="#installation">Instalação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="hero-page">
+            <div class="hero-content">
+                <h1>Duck Manager</h1>
+                <p>Gerenciamento eficiente de produtos e estoque</p>
+            </div>
+        </div>
+
+        <section id="overview">
+            <h2>Visão Geral</h2>
+            <p>O Duck Manager é uma aplicação desktop desenvolvida com Electron que oferece uma solução completa para gerenciamento de produtos e estoque. Com uma interface intuitiva e recursos poderosos, ele ajuda a otimizar o controle de inventário e aumentar a eficiência operacional.</p>
+        </section>
+
+        <section id="features">
+            <h2>Recursos</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-boxes fa-3x"></i>
+                    <h3>Controle de Estoque</h3>
+                    <p>Gerencie seu inventário com precisão e facilidade.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tags fa-3x"></i>
+                    <h3>Gestão de Produtos</h3>
+                    <p>Cadastre e organize seus produtos de forma eficiente.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-line fa-3x"></i>
+                    <h3>Relatórios</h3>
+                    <p>Gere relatórios detalhados para análise de desempenho.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contributors">
+            <h2>Contribuidores</h2>
+            <div class="contributors-grid">
+                <div class="contributor">
+                    <a href="https://github.com/UgorN" target="_blank">
+                        <img src="https://github.com/UgorN.png" alt="Thiago Alberto">
+                        <h3>Thiago Alberto</h3>
+                        <div class="category-blocks">
+                            <span class="category-block front-end">Front End</span>
+                        </div>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/UgorN" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/thiago__kairos/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contributor">
+                    <a href="https://github.com/lukeblackstar" target="_blank">
+                        <img src="https://github.com/lukeblackstar.png" alt="Lucas Andrade">
+                        <h3>Lucas Andrade</h3>
+                        <div class="category-blocks">
+                            <span class="category-block front-end">Front End</span>
+                            <span class="category-block back-end">Back End</span>
+                        </div>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/lukeblackstar" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/protonlucas0/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contributor">
+                    <a href="https://github.com/cellaloren" target="_blank">
+                        <img src="https://github.com/cellaloren.png" alt="Ana Marcella">
+                        <h3>Ana Marcella</h3>
+                        <div class="category-blocks">
+                            <span class="category-block design">Design</span>
+                            <span class="category-block db">DB</span>
+                        </div>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/cellaloren" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cellaloren/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contributor">
+                    <a href="https://github.com/pedrofreir" target="_blank">
+                        <img src="https://github.com/pedrofreir.png" alt="Pedro Arthur">
+                        <h3>Pedro Arthur</h3>
+                        <div class="category-blocks">
+                            <span class="category-block front-end">Front End</span>
+                            <span class="category-block back-end">Back End</span>
+                        </div>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/pedrofreir" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/pedrofreir_/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contributor">
+                    <a href="https://github.com/eded001" target="_blank">
+                        <img src="https://github.com/eded001.png" alt="Edgar">
+                        <h3>Edgar Augusto</h3>
+                        <div class="category-blocks">
+                            <span class="category-block back-end">Back End</span>
+                            <span class="category-block db">DB</span>
+                        </div>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/eded001" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ed_ed001/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contributor">
+                    <a href="https://github.com/CSmurylo" target="_blank">
+                        <img src="https://github.com/CSmurylo.png" alt="Murylo Santos">
+                        <h3>Murylo Santos</h3>
+                        <div class="category-blocks">
+                            <span class="category-block back-end">Back End</span>
+                        </div>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/CSmurylo" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/_mrl.santos_/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contributor">
+                    <a href="https://github.com/joag4443" target="_blank">
+                        <img src="https://github.com/joag4443.png" alt="João Gabriel">
+                        <h3>João Gabriel</h3>
+                        <div class="category-blocks">
+                            <span class="category-block front-end">Front End</span>
+                        </div>
+                    </a>
+                    <div class="social-links">
+                        <a href="https://github.com/joag4443" target="_blank" class="social-btn github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/joaogil__/" target="_blank" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="installation">
+            <h2>Instalação e Execução</h2>
+            <p>Para começar a usar o Duck Manager, siga os passos abaixo:</p>
+            <ol>
+                <li>Instale o Node.js e o Git</li>
+                <li>Clone o repositório: <code>git clone https://github.com/theheapsters/duck-manager</code></li>
+                <li>Instale as dependências: <code>npm install</code></li>
+                <li>Execute a aplicação: <code>npm start</code></li>
+            </ol>
+        </section>
+
+        <div class="cta">
+            <a href="https://github.com/theheapsters/duck-manager" target="_blank">
+                <i class="fab fa-github"></i> Ver no GitHub
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 The Heapsters. Todos os direitos reservados.</p>
+        <p class="developer-note">Site desenvolvido por <a href="https://github.com/lukeblackstar" target="_blank">Lucas Andrade</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
